@@ -4,7 +4,7 @@
   "description": ".",
   "main": "index.js",
   "scripts": {
-    "start": "nde src/",
+    "start": "node src/",
     "dev": "nodemon src/"
   },
   "repository": {
