@@ -6,7 +6,7 @@ app.set('port', process.env.PORT || 3000);
 
 app.get('/barranquilla', (_, res) => res.status(200).send('Atlántico'));
 
-app.get('/santamarta', (_, res) => res.status(200).send('Magdalena'));
+app.get('/santa marta', (_, res) => res.status(200).send('Magdalena'));
 
 app.get('/cartagena', (_, res) => res.status(200).send('Bolívar'));
 
